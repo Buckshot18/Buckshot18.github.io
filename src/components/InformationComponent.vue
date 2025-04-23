@@ -142,7 +142,7 @@ import BodyComponents from './BodyComponents.vue'
             >
               <v-row no-gutters align="center">
                 <v-col cols="2">
-                  <v-img src="src\assets\Pictures\Hyperion.png" height="30" width="30"></v-img>
+                  <v-img src="src/assets/Pictures/Hyperion.png" height="30" width="30"></v-img>
                 </v-col>
                 <v-col>
                   <div class="font-weight-bold text-white">HyperionDev</div>
@@ -159,7 +159,7 @@ import BodyComponents from './BodyComponents.vue'
               elevation="10"
               style="background: linear-gradient(135deg, #8b0000, #333333)"
               target="_blank"
-              href="public\files\Jako Gelderblom CV.pdf"
+              href="public/files/JakoGelderblom CV.pdf"
             >
               <v-row no-gutters align="center">
                 <v-col cols="2">
