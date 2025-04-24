@@ -52,8 +52,21 @@ const slides = [
             color="#8b0000"
           ></v-divider>
 
+          <!-- Project button -->
+          <v-col md="4" class="mx-auto">
+            <v-btn
+              rounded="lg"
+              size="30"
+              block
+              :to="`/projects`"
+              elevation="0"
+              style="background-color: rgba(0, 0, 0, 0.5); color: white"
+              >*Projects*</v-btn
+            >
+          </v-col>
+
           <!-- Slides Section -->
-          <v-window v-model="onboarding" show-arrows="hover" class="text-black mt-6">
+          <v-window v-model="onboarding" show-arrows="hover" class="text-black">
             <template v-slot:prev="{ props }">
               <v-btn
                 icon
