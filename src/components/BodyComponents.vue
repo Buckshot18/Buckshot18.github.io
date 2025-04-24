@@ -60,8 +60,9 @@ const slides = [
               block
               :to="`/projects`"
               elevation="0"
-              style="background-color: rgba(0, 0, 0, 0.5); color: white"
-              >*Projects*</v-btn
+              style="background: linear-gradient(135deg, #8b0000, #333333)"
+              class="text-white"
+              >Projects</v-btn
             >
           </v-col>
 

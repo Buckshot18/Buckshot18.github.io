@@ -9,11 +9,12 @@ import BodyComponents from './BodyComponents.vue'
       backgroundImage: 'url(src/assets/Pictures/background1.jpg)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      height: '100vh',
+      backgroundAttachment: 'fixed',
+      minHeight: '100vh',
       width: '100%',
     }"
   >
-    <v-container fluid class="fill-height d-flex align-center justify-center pa-0 mt-0">
+    <v-container fluid class="fill-height d-flex align-center justify-center">
       <v-row>
         <v-col cols="3" class="d-flex flex-column ml-10 mb-3">
           <!-- Profile Picture -->
@@ -31,145 +32,141 @@ import BodyComponents from './BodyComponents.vue'
           ></v-divider>
 
           <!-- Email -->
-          <div class="mb-2">
-            <v-card
-              class="pa-1"
-              width="100%"
+          <div class="d-flex justify-center">
+            <v-btn
+              class="mb-2 text-white"
               elevation="10"
-              style="background: linear-gradient(135deg, #8b0000, #333333)"
+              style="
+                width: 175px;
+                background: linear-gradient(135deg, #8b0000, #333333);
+                text-transform: none;
+              "
               target="_blank"
               href="mailto:jakogelderblom18@gmail.com"
             >
-              <v-row no-gutters align="center">
-                <v-col cols="2">
-                  <v-img
-                    src="src/assets/Pictures/icons8-email-48.png"
-                    height="30"
-                    width="30"
-                  ></v-img>
-                </v-col>
-                <v-col>
-                  <div class="font-weight-bold text-white">Email</div>
-                </v-col>
-              </v-row>
-            </v-card>
+              <v-img
+                src="src/assets/Pictures/icons8-email-48.png"
+                height="30"
+                width="30"
+                class="mr-3"
+              ></v-img>
+              <span class="font-weight-bold">Email</span>
+            </v-btn>
           </div>
 
           <!-- LinkedIn -->
-          <div class="mb-2">
-            <v-card
-              class="pa-1"
-              width="100%"
+          <div class="d-flex justify-center">
+            <v-btn
+              class="mb-2 text-white"
               elevation="10"
-              style="background: linear-gradient(135deg, #8b0000, #333333)"
+              style="
+                width: 175px;
+                background: linear-gradient(135deg, #8b0000, #333333);
+                text-transform: none;
+              "
               target="_blank"
-              href="https://linkedin.com/in/jakogelderblom"
+              href="https://www.linkedin.com/in/jakogelderblom/"
             >
-              <v-row no-gutters align="center">
-                <v-col cols="2">
-                  <v-img
-                    src="src/assets/Pictures/icons8-linkedin-48.png"
-                    height="30"
-                    width="30"
-                  ></v-img>
-                </v-col>
-                <v-col>
-                  <div class="font-weight-bold text-white">LinkedIn</div>
-                </v-col>
-              </v-row>
-            </v-card>
+              <v-img
+                src="src/assets/Pictures/icons8-linkedin-48.png"
+                height="30"
+                width="30"
+                class="mr-3"
+              ></v-img>
+              <span class="font-weight-bold">LinkedIn</span>
+            </v-btn>
           </div>
 
           <!-- GitHub -->
-          <div class="mb-2">
-            <v-card
-              class="pa-1"
-              width="100%"
+          <div class="d-flex justify-center">
+            <v-btn
+              class="mb-2 text-white"
               elevation="10"
-              style="background: linear-gradient(135deg, #8b0000, #333333)"
+              style="
+                width: 175px;
+                background: linear-gradient(135deg, #8b0000, #333333);
+                text-transform: none;
+              "
               target="_blank"
               href="https://github.com/Buckshot18"
             >
-              <v-row no-gutters align="center">
-                <v-col cols="2">
-                  <v-img
-                    src="src/assets/Pictures/icons8-github-50.png"
-                    height="30"
-                    width="30"
-                  ></v-img>
-                </v-col>
-                <v-col>
-                  <div class="font-weight-bold text-white">Github</div>
-                </v-col>
-              </v-row>
-            </v-card>
+              <v-img
+                src="src/assets/Pictures/icons8-github-50.png"
+                height="30"
+                width="30"
+                class="mr-3"
+              ></v-img>
+              <span class="font-weight-bold">GitHub</span>
+            </v-btn>
           </div>
 
           <!-- Discord -->
-          <div class="mb-2">
-            <v-card
-              class="pa-1"
-              width="100%"
+          <div class="d-flex justify-center">
+            <v-btn
+              class="mb-2 text-white"
               elevation="10"
-              style="background: linear-gradient(135deg, #8b0000, #333333)"
+              style="
+                width: 175px;
+                background: linear-gradient(135deg, #8b0000, #333333);
+                text-transform: none;
+              "
               target="_blank"
-              href="https://discord.com/users/791775922171805746"
+              href="https://discordapp.com/users/791775922171805746"
             >
-              <v-row no-gutters align="center">
-                <v-col cols="2">
-                  <v-img
-                    src="src/assets/Pictures/icons8-discord-24.png"
-                    height="30"
-                    width="30"
-                  ></v-img>
-                </v-col>
-                <v-col>
-                  <div class="font-weight-bold text-white">Discord</div>
-                </v-col>
-              </v-row>
-            </v-card>
+              <v-img
+                src="src/assets/Pictures/icons8-discord-24.png"
+                height="30"
+                width="30"
+                class="mr-3"
+              ></v-img>
+              <span class="font-weight-bold">Discord</span>
+            </v-btn>
           </div>
 
           <!-- HyperionDev -->
-          <div class="mb-2">
-            <v-card
-              class="pa-1"
-              width="100%"
+          <div class="d-flex justify-center">
+            <v-btn
+              class="mb-2 text-white"
               elevation="10"
-              style="background: linear-gradient(135deg, #8b0000, #333333)"
+              style="
+                width: 175px;
+                background: linear-gradient(135deg, #8b0000, #333333);
+                text-transform: none;
+              "
               target="_blank"
               href="https://www.hyperiondev.com/portfolio/380771/"
             >
-              <v-row no-gutters align="center">
-                <v-col cols="2">
-                  <v-img src="src/assets/Pictures/Hyperion.png" height="30" width="30"></v-img>
-                </v-col>
-                <v-col>
-                  <div class="font-weight-bold text-white">HyperionDev</div>
-                </v-col>
-              </v-row>
-            </v-card>
+              <v-img
+                src="src/assets/Pictures/Hyperion.png"
+                height="30"
+                width="30"
+                class="mr-3"
+              ></v-img>
+              <span class="font-weight-bold">HyperionDev</span>
+            </v-btn>
           </div>
 
           <!-- CV pdf -->
-          <div class="mb-2">
-            <v-card
-              class="pa-1"
-              width="100%"
+          <div class="d-flex justify-center">
+            <v-btn
+              class="mb-2 text-white"
               elevation="10"
-              style="background: linear-gradient(135deg, #8b0000, #333333)"
+              style="
+                width: 175px;
+                background: linear-gradient(135deg, #8b0000, #333333);
+                text-transform: none;
+              "
               target="_blank"
-              href="public/files/JakoGelderblom CV.pdf"
+              href="public\files\JakoGelderblom CV.pdf"
             >
-              <v-row no-gutters align="center">
-                <v-col cols="2">
-                  <v-img src="src/assets/Pictures/CV_logo.png" height="30" width="30"></v-img>
-                </v-col>
-                <v-col>
-                  <div class="font-weight-bold text-white">CV</div>
-                </v-col>
-              </v-row>
-            </v-card>
+              <v-img
+                src="src/assets/Pictures/CV_logo.png"
+                height="30"
+                width="30"
+                class="mr-3"
+              ></v-img>
+              <span class="font-weight-bold">CV</span>
+            </v-btn>
           </div>
         </v-col>
         <v-col><BodyComponents /></v-col>
@@ -180,8 +177,8 @@ import BodyComponents from './BodyComponents.vue'
 
 <style scoped>
 .transparent-card {
-  backdrop-filter: blur(1px);
-  background-color: rgba(0, 0, 0, 0.3); /* frosted look */
-  transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent black */
+  backdrop-filter: blur(5px); /* frosted glass effect */
+  border-radius: 0;
 }
 </style>
