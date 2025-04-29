@@ -31,7 +31,6 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
   md="4"
   class="d-flex flex-column mb-3 align-self-center"
 >
-
           <!-- Profile Picture -->
           <v-img
             width="180"
@@ -39,12 +38,7 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
             :src=profilePic
           ></v-img>
           <h1 class="text-white mx-auto">Jako Gelderblom</h1>
-          <v-chip label class="text-white mx-auto">Inspired Web/Software Developer</v-chip>
-          <v-divider
-            :thickness="3"
-            class="border-opacity-100 mt-4 mb-4"
-            color="#8b0000"
-          ></v-divider>
+          <v-chip label class="text-white mx-auto mb-4">Inspired Web/Software Developer</v-chip>
 
           <!-- Email -->
           <div class="d-flex justify-center">
