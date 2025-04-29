@@ -13,7 +13,7 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
 </script>
 <template>
   <div
-    class="d-flex flex-column app-wrapper"
+    class="d-flex flex-column app-wrapper text-center"
     :style="{
       filter: 'blur(0px)',
       backgroundImage: 'url(' + background1 + ')',
