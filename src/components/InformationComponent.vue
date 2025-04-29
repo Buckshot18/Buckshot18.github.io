@@ -26,7 +26,12 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
   >
     <v-container fluid class="fill-height d-flex align-center justify-center">
       <v-row>
-        <v-col cols="3" class="d-flex flex-column ml-10 mb-3">
+        <v-col
+  cols="12"
+  md="4"
+  class="d-flex flex-column mb-3 align-self-center"
+>
+
           <!-- Profile Picture -->
           <v-img
             width="180"
