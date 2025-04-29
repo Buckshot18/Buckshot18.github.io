@@ -1,22 +1,25 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import { MdChevronRight, MdChevronLeft } from 'vue-icons-plus/md'
+import whatsNext from '@/assets/Pictures/whats_next.png'
+import career from '@/assets/Pictures/career.png'
+import Udemy from '@/assets/Pictures/Udemy.png'
 
 const onboarding = ref(0)
 
 // Slide content: update or add more slides here
 const slides = [
   {
-    image: 'src/assets/Pictures/whats_next.png',
+    image: whatsNext,
     title: 'Whats Next for me?',
   },
   {
-    image: 'src/assets/Pictures/career.png',
+    image: career,
     title: 'Gain Work Experience',
     text: 'Look for internship or graduate opportunities in the field.',
   },
   {
-    image: 'src/assets/Pictures/Udemy.png',
+    image: Udemy,
     title: 'Continue Learning',
     text: 'Enroll in more Udemy courses to strengthen my development skills.',
   },

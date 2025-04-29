@@ -1,4 +1,11 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import background1 from '../assets/Pictures/background1.jpg'
+import vue_icon from '../assets/Project_page/vue.jpg'
+import python_icon from '../assets/Project_page/python.jpg'
+import django_logo from '../assets/Project_page/django-logo.jpg'
+import construction_logo from '../assets/Project_page/construction.png'
+
+</script>
 
 <template>
   <!--background-image-->
@@ -6,7 +13,7 @@
     class="d-flex flex-column app-wrapper"
     :style="{
       filter: 'blur(0px)',
-      backgroundImage: 'url(src/assets/Pictures/background1.jpg)',
+      backgroundImage: 'url(' + background1 + ')',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundAttachment: 'fixed',
@@ -47,7 +54,7 @@
             max-width="500"
             style="height: 400px"
           >
-            <v-img src="src/assets/Project_page/vue.jpg" height="200" cover></v-img>
+            <v-img :src="vue_icon" height="200" cover></v-img>
 
             <div class="pa-4 mt-auto">
               <v-card-title class="text-h6">Personal Portfolio</v-card-title>
@@ -70,7 +77,7 @@
             max-width="500"
             style="height: 400px"
           >
-            <v-img src="src/assets/Project_page/python.jpg" height="200" cover></v-img>
+            <v-img :src="python_icon" height="200" cover></v-img>
 
             <div class="pa-4 mt-auto">
               <v-card-title class="text-h6">Ebookstore Inventory</v-card-title>
@@ -96,7 +103,7 @@
             max-width="500"
             style="height: 400px"
           >
-            <v-img src="src/assets/Project_page/django-logo.jpg" height="200" cover></v-img>
+            <v-img :src="django_logo" height="200" cover></v-img>
 
             <div class="pa-4 mt-auto">
               <v-card-title class="text-h6">A Random Band Website</v-card-title>
@@ -119,7 +126,7 @@
             max-width="500"
             style="height: 400px"
           >
-            <v-img src="src/assets/Project_page/construction.png" height="200" cover></v-img>
+            <v-img :src="construction_logo" height="200" cover></v-img>
 
             <div class="pa-4 mt-auto">
               <v-card-title class="text-h6">🚀Exciting projects are loading...</v-card-title>
@@ -138,7 +145,7 @@
             max-width="500"
             style="height: 400px"
           >
-            <v-img src="src/assets/Project_page/python.jpg" height="200" cover></v-img>
+            <v-img :src="python_icon" height="200" cover></v-img>
 
             <div class="pa-4 mt-auto">
               <v-card-title class="text-h6">Finance Calculator</v-card-title>
@@ -161,7 +168,7 @@
             max-width="500"
             style="height: 400px"
           >
-            <v-img src="src/assets/Project_page/construction.png" height="200" cover></v-img>
+            <v-img :src="construction_logo" height="200" cover></v-img>
 
             <div class="pa-4 mt-auto">
               <v-card-title class="text-h6">🚀Exciting projects are loading...</v-card-title>
