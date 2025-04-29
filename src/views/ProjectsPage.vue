@@ -66,7 +66,7 @@ import construction_logo from '../assets/Project_page/construction.png'
                 variant="outlined"
                 block
                 target="_blank"
-                href="https://github.com/Buckshot18/Personal-website"
+                href="https://github.com/Buckshot18/Personal_website"
               />
             </div>
           </v-card>
