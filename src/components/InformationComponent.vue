@@ -8,6 +8,7 @@ import githubIcon from '../assets/Pictures/icons8-github-50.png'
 import discordIcon from '../assets/Pictures/icons8-discord-24.png'
 import hyperionDevIcon from '../assets/Pictures/Hyperion.png'
 import cvlogoIcon from '../assets/Pictures/CV_logo.png'
+import cv_file from '../assets/files/JakoGelderblom CV.pdf'
 
 </script>
 <template>
@@ -166,7 +167,7 @@ import cvlogoIcon from '../assets/Pictures/CV_logo.png'
                 text-transform: none;
               "
               target="_blank"
-              href="public\files\JakoGelderblom CV.pdf"
+              :href="cv_file"
             >
               <v-img
                 :src=cvlogoIcon
