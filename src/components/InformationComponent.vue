@@ -9,7 +9,6 @@ import discordIcon from '../assets/Pictures/icons8-discord-24.png'
 import hyperionDevIcon from '../assets/Pictures/Hyperion.png'
 import cvlogoIcon from '../assets/Pictures/CV_logo.png'
 import cv_file from '../assets/files/JakoGelderblom CV.pdf'
-
 </script>
 <template>
   <div
@@ -26,17 +25,9 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
   >
     <v-container fluid class="fill-height d-flex align-center justify-center">
       <v-row>
-        <v-col
-  cols="12"
-  md="4"
-  class="d-flex flex-column mb-3 align-self-center"
->
+        <v-col cols="12" md="4" class="d-flex flex-column mb-3 align-self-center">
           <!-- Profile Picture -->
-          <v-img
-            width="180"
-            class="rounded-xl mx-auto"
-            :src=profilePic
-          ></v-img>
+          <v-img width="180" class="rounded-xl mx-auto" :src="profilePic"></v-img>
           <h1 class="text-white mx-auto">Jako Gelderblom</h1>
           <v-chip label class="text-white mx-auto mb-4">Inspired Web/Software Developer</v-chip>
 
@@ -53,12 +44,7 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
               target="_blank"
               href="mailto:jakogelderblom18@gmail.com"
             >
-              <v-img
-                :src="emailIcon"
-                height="30"
-                width="30"
-                class="mr-3"
-              ></v-img>
+              <v-img :src="emailIcon" height="30" width="30" class="mr-3"></v-img>
               <span class="font-weight-bold">Email</span>
             </v-btn>
           </div>
@@ -76,12 +62,7 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
               target="_blank"
               href="https://www.linkedin.com/in/jakogelderblom/"
             >
-              <v-img
-                :src=linkedInIcon
-                height="30"
-                width="30"
-                class="mr-3"
-              ></v-img>
+              <v-img :src="linkedInIcon" height="30" width="30" class="mr-3"></v-img>
               <span class="font-weight-bold">LinkedIn</span>
             </v-btn>
           </div>
@@ -99,12 +80,7 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
               target="_blank"
               href="https://github.com/Buckshot18"
             >
-              <v-img
-                :src=githubIcon
-                height="30"
-                width="30"
-                class="mr-3"
-              ></v-img>
+              <v-img :src="githubIcon" height="30" width="30" class="mr-3"></v-img>
               <span class="font-weight-bold">GitHub</span>
             </v-btn>
           </div>
@@ -122,12 +98,7 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
               target="_blank"
               href="https://discordapp.com/users/791775922171805746"
             >
-              <v-img
-                :src=discordIcon
-                height="30"
-                width="30"
-                class="mr-3"
-              ></v-img>
+              <v-img :src="discordIcon" height="30" width="30" class="mr-3"></v-img>
               <span class="font-weight-bold">Discord</span>
             </v-btn>
           </div>
@@ -145,12 +116,7 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
               target="_blank"
               href="https://www.hyperiondev.com/portfolio/380771/"
             >
-              <v-img
-                :src="hyperionDevIcon"
-                height="30"
-                width="30"
-                class="mr-3"
-              ></v-img>
+              <v-img :src="hyperionDevIcon" height="30" width="30" class="mr-3"></v-img>
               <span class="font-weight-bold">HyperionDev</span>
             </v-btn>
           </div>
@@ -168,13 +134,24 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
               target="_blank"
               :href="cv_file"
             >
-              <v-img
-                :src=cvlogoIcon
-                height="30"
-                width="30"
-                class="mr-3"
-              ></v-img>
+              <v-img :src="cvlogoIcon" height="30" width="30" class="mr-3"></v-img>
               <span class="font-weight-bold">CV</span>
+            </v-btn>
+          </div>
+
+          <!-- Project button -->
+          <div class="d-flex justify-center mt-4">
+            <v-btn
+              class="mb-2 text-white"
+              elevation="10"
+              style="
+                width: 175px;
+                background: linear-gradient(135deg, #8b0000, #333333);
+                text-transform: none;
+              "
+              :to="`/projects`"
+            >
+              <span class="font-weight-bold">Projects</span>
             </v-btn>
           </div>
         </v-col>
