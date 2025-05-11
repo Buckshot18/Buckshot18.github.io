@@ -8,7 +8,8 @@ import githubIcon from '../assets/Pictures/icons8-github-50.png'
 import discordIcon from '../assets/Pictures/icons8-discord-24.png'
 import hyperionDevIcon from '../assets/Pictures/Hyperion.png'
 import cvlogoIcon from '../assets/Pictures/CV_logo.png'
-import cv_file from '../assets/files/JakoGelderblom CV.pdf'
+import projectlogo from '../assets/Pictures/project-48.png'
+import cv_file from '../assets/files/Jako_Gelderblom_Onepage.pdf'
 </script>
 <template>
   <div
@@ -151,6 +152,7 @@ import cv_file from '../assets/files/JakoGelderblom CV.pdf'
               "
               :to="`/projects`"
             >
+              <v-img :src="projectlogo" height="30" width="30" class="mr-3"></v-img>
               <span class="font-weight-bold">Projects</span>
             </v-btn>
           </div>
