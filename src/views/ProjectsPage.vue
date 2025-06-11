@@ -119,13 +119,22 @@
             max-width="500"
             style="height: 400px"
           >
-            <v-img src="src/assets/Project_page/construction.png" height="200" cover></v-img>
+            <v-img src="src/assets/Project_page/Udemy.png" height="200" cover></v-img>
 
             <div class="pa-4 mt-auto">
-              <v-card-title class="text-h6">🚀Exciting projects are loading...</v-card-title>
-              <v-card-subtitle class="mb-4">...???...</v-card-subtitle>
+              <v-card-title class="text-h6">Fullstack web development</v-card-title>
+              <v-card-subtitle class="mb-4"
+                >HTML, CSS, Bootsrap, Flexbox, React, JavaScript, API
+              </v-card-subtitle>
 
-              <v-btn color="red-lighten-2" text="To Repository" variant="outlined" block />
+              <v-btn
+                color="red-lighten-2"
+                text="To Repository"
+                variant="outlined"
+                block
+                target="blank"
+                href="https://github.com/Buckshot18/Complete-Full_Stack-Web-development"
+              />
             </div>
           </v-card>
         </v-col>

@@ -157,7 +157,7 @@ import BodyComponents from './BodyComponents.vue'
                 text-transform: none;
               "
               target="_blank"
-              href="public\files\JakoGelderblom CV.pdf"
+              href="public\files\Jako_Gelderblom_CV.pdf"
             >
               <v-img
                 src="src/assets/Pictures/CV_logo.png"
