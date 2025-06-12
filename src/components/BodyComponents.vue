@@ -7,16 +7,16 @@ const onboarding = ref(0)
 // Slide content: update or add more slides here
 const slides = [
   {
-    image: 'src/assets/Pictures/whats_next.png',
+    image: 'Pictures/whats_next.png',
     title: 'Whats Next for me?',
   },
   {
-    image: 'src/assets/Pictures/career.png',
+    image: 'Pictures/career.png',
     title: 'Gain Work Experience',
     text: 'Look for internship or graduate opportunities in the field.',
   },
   {
-    image: 'src/assets/Pictures/Udemy.png',
+    image: 'Pictures/Udemy.png',
     title: 'Continue Learning',
     text: 'Enroll in more Udemy courses to strengthen my development skills.',
   },

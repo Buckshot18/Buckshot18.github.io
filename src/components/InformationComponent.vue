@@ -6,7 +6,7 @@ import BodyComponents from './BodyComponents.vue'
     class="d-flex flex-column app-wrapper"
     :style="{
       filter: 'blur(0px)',
-      backgroundImage: 'url(src/assets/Pictures/background1.jpg)',
+      backgroundImage: 'url(Pictures/background1.jpg)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundAttachment: 'fixed',
@@ -21,7 +21,7 @@ import BodyComponents from './BodyComponents.vue'
           <v-img
             width="180"
             class="rounded-xl mx-auto"
-            src="src/assets/Pictures/profile-pic2.jpg"
+            src="Pictures/profile-pic2.jpg"
           ></v-img>
           <h1 class="text-white mx-auto">Jako Gelderblom</h1>
           <v-chip label class="text-white mx-auto">Inspired Web/Software Developer</v-chip>
@@ -45,7 +45,7 @@ import BodyComponents from './BodyComponents.vue'
               href="mailto:jakogelderblom18@gmail.com"
             >
               <v-img
-                src="src/assets/Pictures/icons8-email-48.png"
+                src="Pictures/icons8-email-48.png"
                 height="30"
                 width="30"
                 class="mr-3"
@@ -68,7 +68,7 @@ import BodyComponents from './BodyComponents.vue'
               href="https://www.linkedin.com/in/jakogelderblom/"
             >
               <v-img
-                src="src/assets/Pictures/icons8-linkedin-48.png"
+                src="Pictures/icons8-linkedin-48.png"
                 height="30"
                 width="30"
                 class="mr-3"
@@ -91,7 +91,7 @@ import BodyComponents from './BodyComponents.vue'
               href="https://github.com/Buckshot18"
             >
               <v-img
-                src="src/assets/Pictures/icons8-github-50.png"
+                src="Pictures/icons8-github-50.png"
                 height="30"
                 width="30"
                 class="mr-3"
@@ -114,7 +114,7 @@ import BodyComponents from './BodyComponents.vue'
               href="https://discordapp.com/users/791775922171805746"
             >
               <v-img
-                src="src/assets/Pictures/icons8-discord-24.png"
+                src="Pictures/icons8-discord-24.png"
                 height="30"
                 width="30"
                 class="mr-3"
@@ -137,7 +137,7 @@ import BodyComponents from './BodyComponents.vue'
               href="https://www.hyperiondev.com/portfolio/380771/"
             >
               <v-img
-                src="src/assets/Pictures/Hyperion.png"
+                src="Pictures/Hyperion.png"
                 height="30"
                 width="30"
                 class="mr-3"
@@ -160,7 +160,7 @@ import BodyComponents from './BodyComponents.vue'
               href="files\Jako_Gelderblom_CV.pdf"
             >
               <v-img
-                src="src/assets/Pictures/CV_logo.png"
+                src="Pictures\CV_logo.png"
                 height="30"
                 width="30"
                 class="mr-3"
