@@ -1,4 +1,4 @@
-# .
+# Personal Website
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -61,4 +61,40 @@ npm run test:e2e -- --debug
 
 ```sh
 npm run lint
+```
+
+## Install `npm`
+
+- [Node.js](https://nodejs.org/en/download/)
+
+## Using yarn
+
+Install `yarn`
+
+```sh
+npm install --global yarn
+```
+
+Confirm installation (expect e.g., `1.22.22`)
+
+```sh
+yarn --version
+```
+
+Install dependencies
+
+```sh
+yarn install --frozen-lockfile
+```
+
+Build
+
+```sh
+yarn build
+```
+
+Run locally and access through `http://localhost:5173/`
+
+```sh
+yarn dev
 ```
